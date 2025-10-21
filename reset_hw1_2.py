@@ -62,7 +62,7 @@ def classify0(inX, dataSet, labels, k):
 
 def datingClassTest():
     testData, testLabels = file2matrix('data/knn_testData.txt')
-    trainData, trainLabels = file2matrix('data/knn_trainData.txt')
+    trainData, trainLabels = file2matrix('data/nn_trainData.txt')
 
     # 只用训练集统计量做归一化，并将其应用在测试集上
     trainNorm, ranges, minVals = autoNorm(trainData)
