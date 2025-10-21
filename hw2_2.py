@@ -30,7 +30,7 @@ def img2vector(filename):
     return returnVect
 
 
-# 手写数字识别测试主函数
+#TODO:从目标文件夹中获取测试数据集和训练数据集，进行转换后再进行计算，利用KNN算法进行分类，并统计错误率，最后输出结果。
 def handwritingClassTest():
     hwLabels = []  # 存储训练标签
     # 1. 加载训练数据
